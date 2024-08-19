@@ -206,8 +206,8 @@ export class AppService {
     payerWalletAddress: string;
     payerPrivateKey: string;
   }> {
-    const secretToken = this.configService.get<string>('TELGRAM_BOT_TOKEN');
-    validate(initDataRaw, secretToken);
+    // const secretToken = this.configService.get<string>('TELGRAM_BOT_TOKEN');
+    // validate(initDataRaw, secretToken);
     const privateKey = Wallet.createRandom().privateKey;
     const wallet = new Wallet(
       privateKey,
