@@ -63,6 +63,7 @@ export class AppService {
     await this.addPermittedAuthMethodToPkp(litContracts, pkp, telegramUserId);
     const ipfsCid = await this.convertLitActionCodeToIpfsCid();
     await this.permitLitActionToUsePkp(litContracts, pkp, ipfsCid);
+    await this.sendPkpToItself(litContracts, pkp);
     return pkp;
   }
 
@@ -196,6 +197,26 @@ export class AppService {
       pkpTokenId: pkp.tokenId,
       authMethodScopes: [AuthMethodScope.SignAnything],
     });
+    return receipt;
+  }
+
+  private async sendPkpToItself(
+    litContracts: LitContracts,
+    pkp: {
+      tokenId: any;
+      publicKey: string;
+      ethAddress: string;
+    },
+  ) {
+    const wallet = new Wallet(
+      this.configService.get<string>('EOA_PRIVATE_KEY'),
+      new ethers.providers.JsonRpcProvider(LIT_RPC.CHRONICLE_YELLOWSTONE),
+    );
+    const receipt = await litContracts.pkpNftContract.write.transferFrom(
+      wallet.address,
+      pkp.ethAddress,
+      pkp.tokenId,
+    );
     return receipt;
   }
 
