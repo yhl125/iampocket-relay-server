@@ -9,20 +9,20 @@ importers:
   .:
     dependencies:
       '@lit-protocol/constants':
-        specifier: ^6.4.4
-        version: 6.4.4(typescript@5.5.4)
+        specifier: ^6.4.8
+        version: 6.4.8(typescript@5.5.4)
       '@lit-protocol/contracts':
         specifier: ^0.0.63
         version: 0.0.63(typescript@5.5.4)
       '@lit-protocol/contracts-sdk':
-        specifier: ^6.4.4
-        version: 6.4.4(typescript@5.5.4)
+        specifier: ^6.4.8
+        version: 6.4.8(typescript@5.5.4)
       '@lit-protocol/lit-node-client':
-        specifier: ^6.4.4
-        version: 6.4.4(react@18.3.1)(typescript@5.5.4)
+        specifier: ^6.4.8
+        version: 6.4.8(react@18.3.1)(typescript@5.5.4)
       '@lit-protocol/types':
-        specifier: ^6.4.4
-        version: 6.4.4
+        specifier: ^6.4.8
+        version: 6.4.8
       '@nestjs/common':
         specifier: ^10.4.1
         version: 10.4.1(reflect-metadata@0.2.2)(rxjs@7.8.1)
@@ -563,26 +563,26 @@ packages:
   '@lit-labs/ssr-dom-shim@1.2.1':
     resolution: {integrity: sha512-wx4aBmgeGvFmOKucFKY+8VFJSYZxs9poN3SDNQFF6lT6NrQUnHiPB2PWz2sc4ieEcAaYYzN+1uWahEeTq2aRIQ==}
 
-  '@lit-protocol/access-control-conditions@6.4.4':
-    resolution: {integrity: sha512-4licIzwuDneWOarE8DELBDEbbR1gACsbECnO4Co/dAsXlpTVrN5SFBcxDBysdOGbhJcNz6sZMaIsfSYld3x5IA==}
+  '@lit-protocol/access-control-conditions@6.4.8':
+    resolution: {integrity: sha512-YiGS2O0bN1POF1oHDY5LOSarZr0j8YiKNfFXsjqKJtqWJDkkAYz8AZ2MnN7oX6C9B42EwJQkWzUJJ0mFB6qMGw==}
 
-  '@lit-protocol/accs-schemas@0.0.9':
-    resolution: {integrity: sha512-4Y7YNvtMWAEGIjkzqy7Fdt06WLACugyP4lbURWDzdn8DODQfmdJ/RzFybJR2/ChlHgEqY+joWPMeEQHqn7QSfw==}
+  '@lit-protocol/accs-schemas@0.0.10':
+    resolution: {integrity: sha512-47KUX4Fafy9/sbjBaA26m6CAfS5VW+X95zeP8zLdGUz201hPZXkvNoyhiJLChsluY9HKJxVbSvmXjp2g7kMLGw==}
 
-  '@lit-protocol/auth-browser@6.4.4':
-    resolution: {integrity: sha512-H9YZqZmfRVYKVYy8wn/Ap0tDbYonIFVNsfVHsZ5dw+OjMgTjSWsNdhGoICTzAc63h9l45mza8StJd5QNOyPbMg==}
+  '@lit-protocol/auth-browser@6.4.8':
+    resolution: {integrity: sha512-yVwtY5QMBgRGhBFwoMcBy3cRVQoPNN3jNbDgCPoTrLmZR+wv0kEPW+ae2y6n4j51DL+bh2LJHWFI96MlYAN6mA==}
 
-  '@lit-protocol/auth-helpers@6.4.4':
-    resolution: {integrity: sha512-ANUvvqboD9IFVr/hrh//5QJ+eV6u/CEDmZjNe5GAySCV6/fy+WyetmbBUk2raO2EqzWWOxGa+dcJfCtwAU6xmA==}
+  '@lit-protocol/auth-helpers@6.4.8':
+    resolution: {integrity: sha512-pIO769QqzupcPRcol9L85yEZj5G7FZMtF8xHOHYnqiPUtsQI2MNTE24dpxliQLoQ3KI02BiYpn9qA8CzTUZNig==}
 
-  '@lit-protocol/bls-sdk@6.4.4':
-    resolution: {integrity: sha512-ainZ0oynPP3Cqp/WX70ZQYslWRZ8uXEk86L/rpjOw3JGT0hETMrhIg3fGX5+57X7n080OQHSKFfSHueuCejraA==}
+  '@lit-protocol/bls-sdk@6.4.8':
+    resolution: {integrity: sha512-hh0KxgwUSyNkyV6DYsV4avhE4dJI5cq4pLYXHChf57SK/jgU8WvZ1zCuM6w8N5JkCdF0R1iaitz8EX+a1Vo0hA==}
 
-  '@lit-protocol/constants@6.4.4':
-    resolution: {integrity: sha512-j2GV25Ycc/1xSTpxx8keKIcue8HDe3AOPu75vI6lP4cISBeKcVTy/JHXeYbZmMc063VUXPavpt37yc5kteIKEw==}
+  '@lit-protocol/constants@6.4.8':
+    resolution: {integrity: sha512-2VxYtfdiKC+V38HvHvCExlGJOfzj0S2/Pa+ZBoNQ0CQt3fXCasGq2veDpLHVwkc4DOgqV5bWzI4g+YPQdGsdzg==}
 
-  '@lit-protocol/contracts-sdk@6.4.4':
-    resolution: {integrity: sha512-Liq7juxmP8Y/kC5DJ67c61oX38t/eP6R/H45UrU8/56rVIXDrOQDhEIOzGu0EPnhoKvy9xPcf/6025Yzpwu5JQ==}
+  '@lit-protocol/contracts-sdk@6.4.8':
+    resolution: {integrity: sha512-yH7Be3Q/aEktcfV//+9JV917jH0t46Sd7n5qVRRLoV9nmQ9sikbotMo04IroQodLCc47qx8Zv5pZn87fTv8ZGQ==}
 
   '@lit-protocol/contracts@0.0.39':
     resolution: {integrity: sha512-zz/TaKWUqFK2n7BqwKj9PeV0px89G7dnjkRJ9BM/eri356zodd/W5d5iGQUVdaFiCYKd/cibm4004BnuMlXLeg==}
@@ -594,44 +594,44 @@ packages:
     peerDependencies:
       typescript: ^5.0.0
 
-  '@lit-protocol/core@6.4.4':
-    resolution: {integrity: sha512-bpABo9IZO85EB+mpxvnPYmKm0NSn686b6NbW9I/HrvaCOxZHWD9/YvgjQSLScgbBFHcsAGVIjmnuGqEUASU32Q==}
+  '@lit-protocol/core@6.4.8':
+    resolution: {integrity: sha512-lI5oeppfHGsAqGQI4JmUjpKiHKdmrCLSGC3OjBUKsKKo86y/mlF7vQa1S87QWH+B+8LSn1p4AbyRIPoHbFPE/w==}
 
-  '@lit-protocol/crypto@6.4.4':
-    resolution: {integrity: sha512-dVSQ2bdpuvOWsAZ8nqbx58wED0lmKUBrwNPG6z4JmTQaUSUcp1yIWowll42iga0ZOs5mMKXMFYE6F7AzRRh23g==}
+  '@lit-protocol/crypto@6.4.8':
+    resolution: {integrity: sha512-l6rmLEGWe9qKiN8jxhx3Lca7Jwiae83px3R+drdR+ijTWhY7Fyta+QmhhElmtFI9zO6rVfSSCAZbdTmyPHQziw==}
 
-  '@lit-protocol/ecdsa-sdk@6.4.4':
-    resolution: {integrity: sha512-61oUT67KkXGMpy3Ys6LTPhsAipBv6N2VHlmh8+2VgS2i+f9UHF8sThq3JqeT+DSYYgwcP7icdtHHovy0bxOaWw==}
+  '@lit-protocol/ecdsa-sdk@6.4.8':
+    resolution: {integrity: sha512-I/FgUe4OoIw3rvo6PcUdwhNEMEbvGqkZsQdVvglu8c7ZKJe1yTGe95KieXPfmYR/8bj53owA7EFcEn07w+PrCw==}
 
-  '@lit-protocol/encryption@6.4.4':
-    resolution: {integrity: sha512-2kO48LGVLZfGyICMJhBgNQe0vldz9HEVTf+AIK12sJ1GNYGnN+HhDltUY7en0Q/i7AGKEfQ6QSJU/ssrXEGX2g==}
+  '@lit-protocol/encryption@6.4.8':
+    resolution: {integrity: sha512-8PHQ1ZN3XMVdU41U/sx7Pt0M11oejDeYxULOo2O8nTlOnyOhL+/29iX6bKgF80con1Vz7YPqNoCHphkg4jYf2A==}
 
-  '@lit-protocol/lit-node-client-nodejs@6.4.4':
-    resolution: {integrity: sha512-bETHkrCWPamRVCAJxefBfYSzIZep3903fv2aaD7pYfHjFqJSMVbDQ4ZK9Po8S56JGyvPba++XqMCf+2f/7Lahg==}
+  '@lit-protocol/lit-node-client-nodejs@6.4.8':
+    resolution: {integrity: sha512-3U0jKmHKXwW6rTtToT44FsD+q1qX2XmsNWbk6pcEfpCe8dEHJSwxZgRLeSsKhs58LA0zGtyF4z9ScKuzGgzlLA==}
 
-  '@lit-protocol/lit-node-client@6.4.4':
-    resolution: {integrity: sha512-9cfjvl4qy4IUXaftHwj8h6Zcrf1ziFeWHNBxZ7fG3WXRhOnB5oxSTkVJXC4CFn4HUd9SURNe/RpoNG4BygDKfg==}
+  '@lit-protocol/lit-node-client@6.4.8':
+    resolution: {integrity: sha512-itPhOMV/vP4sgQbyNeNcLuPEf3ZR3Cn4XTrV6aoN1faOANoqtSuE4lfe5XSbk+QJtnl8+OZMIfpze6vnU0H5eg==}
 
-  '@lit-protocol/logger@6.4.4':
-    resolution: {integrity: sha512-oEmGSWUJrs3caGv7jPvm1Z9SvYf4uC49CUHQfweiq/DjiK2G499u0+hd5DmbnjzNqQkA2SwJim3kIiQoCrCDpA==}
+  '@lit-protocol/logger@6.4.8':
+    resolution: {integrity: sha512-hdE3CJb2S/m9q5/Yygajs4XOKfvS/UoPaHAGiPT+0/R7PFBZYa11QpdVruwMVH+vOYnY75yuTxT8JYD9vwXUoQ==}
 
-  '@lit-protocol/misc-browser@6.4.4':
-    resolution: {integrity: sha512-VIE2bvK1xBbsBuK5ko1LcO+GULe9aTj8TJH/tkWmLOSSfq1izFq7gEJw6QJbf1lbbZar99vCz6A62+FJmo+jYw==}
+  '@lit-protocol/misc-browser@6.4.8':
+    resolution: {integrity: sha512-ke/QgBlim5aQm6auzhZ+5n178ihBLEXM9UzQniRVWFQuV7YiCfgu0Ypz/Tl8AKG8SlnKH3jYLH/XNxkkeasDcA==}
 
-  '@lit-protocol/misc@6.4.4':
-    resolution: {integrity: sha512-G29CQPIfNfOAaIetVgFG/NTA2VZZfN3VDlIFXdr+iWt9U93T9HS604jUgFqXq7wbQLg0jHl6TXLFj6/BsMvpHQ==}
+  '@lit-protocol/misc@6.4.8':
+    resolution: {integrity: sha512-N3dyQ596tKMxABlqdiy3tMgalQsgXF+b7PYYIGwnP4lwbXUUtKPtJxiXIvd+6atrAWYMjm0fy5ccqb2F9SqWvg==}
 
-  '@lit-protocol/nacl@6.4.4':
-    resolution: {integrity: sha512-Pw4PgYQ1YuZtgjcZ6/qdw6+2hsDhzLHY3D2y1WfRZIOLLbJZFzuX1ZbAmX2HR4P9UcLWw8mIoVKQXZ+A3scR4Q==}
+  '@lit-protocol/nacl@6.4.8':
+    resolution: {integrity: sha512-9MhI/hC4Q9ZCCRxICWE/CDC6dp7jNTCVSiYU9Q6SHwURVJpbLDEu9hQTxCd/+V5v/1i5PoQOmKye70xhnaCB5g==}
 
-  '@lit-protocol/sev-snp-utils-sdk@6.4.4':
-    resolution: {integrity: sha512-PVASixNkUXxkOuclxicpGxDgqxlwB/NFDAPWKiX983rRCWI8mzw4f/2mr3xjixMXL2Uk6pE6u6ZOpeO85J0jKw==}
+  '@lit-protocol/sev-snp-utils-sdk@6.4.8':
+    resolution: {integrity: sha512-DZGD79Pa6YKdlEpPaFUdAiWO9trLPFNQy3/kVmAhovEfG8etx7w7UZ001b+R8gu82ETfzhmG35SD1DHrb7L16Q==}
 
-  '@lit-protocol/types@6.4.4':
-    resolution: {integrity: sha512-JnkMTef4P9QMVIcr7sR18Wt65SibogfsN9dDOVcfJvaN8li3GTmw1wMRN6C22tpAHGeJYSmxBd5oclbGVeQNkw==}
+  '@lit-protocol/types@6.4.8':
+    resolution: {integrity: sha512-oomqIJGzTgsFlTdsMKdPI2Hb/TBea76gaA9OrFP+t84rtAoK+fX/xb6L3jT+gQu97eIcctKlkWdLlIKlNhaKTA==}
 
-  '@lit-protocol/uint8arrays@6.4.4':
-    resolution: {integrity: sha512-FiP8BbHOg3zuGEPh6iyMzvbDy1QxbMNVVv/GN/99B2+vn4lwzVtdZGwio1ufr+KhOQhIMfHM2MbyjVFFidj15Q==}
+  '@lit-protocol/uint8arrays@6.4.8':
+    resolution: {integrity: sha512-WmD1mkUe4rCu7vQ8nc24UsDfx0OyqSd0F9ujg0TyvilUEDlGxZeDQJCkb4rZr/Kpmo6BdEl8F6ox9rdsQQ19xw==}
 
   '@lit/reactive-element@1.6.3':
     resolution: {integrity: sha512-QuTgnG52Poic7uM1AN5yJ09QMe0O28e10XzSvWDz02TJiiKee4stsiownEIadWm8nYzyDAyT+gKzUoZmiWQtsQ==}
@@ -4643,18 +4643,18 @@ snapshots:
 
   '@lit-labs/ssr-dom-shim@1.2.1': {}
 
-  '@lit-protocol/access-control-conditions@6.4.4(typescript@5.5.4)':
+  '@lit-protocol/access-control-conditions@6.4.8(typescript@5.5.4)':
     dependencies:
       '@ethersproject/abstract-provider': 5.7.0
       '@ethersproject/contracts': 5.7.0
       '@ethersproject/providers': 5.7.2
-      '@lit-protocol/accs-schemas': 0.0.9
-      '@lit-protocol/constants': 6.4.4(typescript@5.5.4)
+      '@lit-protocol/accs-schemas': 0.0.10
+      '@lit-protocol/constants': 6.4.8(typescript@5.5.4)
       '@lit-protocol/contracts': 0.0.39(typescript@5.5.4)
-      '@lit-protocol/logger': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/misc': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/types': 6.4.4
-      '@lit-protocol/uint8arrays': 6.4.4(typescript@5.5.4)
+      '@lit-protocol/logger': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/misc': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/types': 6.4.8
+      '@lit-protocol/uint8arrays': 6.4.8(typescript@5.5.4)
       ajv: 8.12.0
       ethers: 5.7.2
       jszip: 3.10.1
@@ -4668,11 +4668,11 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@lit-protocol/accs-schemas@0.0.9':
+  '@lit-protocol/accs-schemas@0.0.10':
     dependencies:
       ajv: 8.12.0
 
-  '@lit-protocol/auth-browser@6.4.4(typescript@5.5.4)':
+  '@lit-protocol/auth-browser@6.4.8(typescript@5.5.4)':
     dependencies:
       '@ethersproject/abstract-provider': 5.7.0
       '@ethersproject/bytes': 5.7.0
@@ -4680,14 +4680,14 @@ snapshots:
       '@ethersproject/providers': 5.7.2
       '@ethersproject/strings': 5.7.0
       '@ethersproject/wallet': 5.7.0
-      '@lit-protocol/accs-schemas': 0.0.9
-      '@lit-protocol/constants': 6.4.4(typescript@5.5.4)
+      '@lit-protocol/accs-schemas': 0.0.10
+      '@lit-protocol/constants': 6.4.8(typescript@5.5.4)
       '@lit-protocol/contracts': 0.0.39(typescript@5.5.4)
-      '@lit-protocol/logger': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/misc': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/misc-browser': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/types': 6.4.4
-      '@lit-protocol/uint8arrays': 6.4.4(typescript@5.5.4)
+      '@lit-protocol/logger': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/misc': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/misc-browser': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/types': 6.4.8
+      '@lit-protocol/uint8arrays': 6.4.8(typescript@5.5.4)
       ajv: 8.12.0
       ethers: 5.7.2
       jszip: 3.10.1
@@ -4699,19 +4699,19 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@lit-protocol/auth-helpers@6.4.4(typescript@5.5.4)':
+  '@lit-protocol/auth-helpers@6.4.8(typescript@5.5.4)':
     dependencies:
       '@ethersproject/abstract-provider': 5.7.0
       '@ethersproject/contracts': 5.7.0
       '@ethersproject/providers': 5.7.2
-      '@lit-protocol/access-control-conditions': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/accs-schemas': 0.0.9
-      '@lit-protocol/constants': 6.4.4(typescript@5.5.4)
+      '@lit-protocol/access-control-conditions': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/accs-schemas': 0.0.10
+      '@lit-protocol/constants': 6.4.8(typescript@5.5.4)
       '@lit-protocol/contracts': 0.0.39(typescript@5.5.4)
-      '@lit-protocol/logger': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/misc': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/types': 6.4.4
-      '@lit-protocol/uint8arrays': 6.4.4(typescript@5.5.4)
+      '@lit-protocol/logger': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/misc': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/types': 6.4.8
+      '@lit-protocol/uint8arrays': 6.4.8(typescript@5.5.4)
       ajv: 8.12.0
       ethers: 5.7.2
       jszip: 3.10.1
@@ -4726,17 +4726,17 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@lit-protocol/bls-sdk@6.4.4':
+  '@lit-protocol/bls-sdk@6.4.8':
     dependencies:
       tslib: 1.14.1
       util: 0.12.5
 
-  '@lit-protocol/constants@6.4.4(typescript@5.5.4)':
+  '@lit-protocol/constants@6.4.8(typescript@5.5.4)':
     dependencies:
       '@ethersproject/abstract-provider': 5.7.0
-      '@lit-protocol/accs-schemas': 0.0.9
+      '@lit-protocol/accs-schemas': 0.0.10
       '@lit-protocol/contracts': 0.0.39(typescript@5.5.4)
-      '@lit-protocol/types': 6.4.4
+      '@lit-protocol/types': 6.4.8
       ethers: 5.7.2
       jszip: 3.10.1
       siwe: 2.3.2(ethers@5.7.2)
@@ -4746,7 +4746,7 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@lit-protocol/contracts-sdk@6.4.4(typescript@5.5.4)':
+  '@lit-protocol/contracts-sdk@6.4.8(typescript@5.5.4)':
     dependencies:
       '@cosmjs/amino': 0.30.1
       '@cosmjs/crypto': 0.30.1
@@ -4755,12 +4755,12 @@ snapshots:
       '@ethersproject/abstract-provider': 5.7.0
       '@ethersproject/contracts': 5.7.0
       '@ethersproject/providers': 5.7.2
-      '@lit-protocol/accs-schemas': 0.0.9
-      '@lit-protocol/constants': 6.4.4(typescript@5.5.4)
+      '@lit-protocol/accs-schemas': 0.0.10
+      '@lit-protocol/constants': 6.4.8(typescript@5.5.4)
       '@lit-protocol/contracts': 0.0.39(typescript@5.5.4)
-      '@lit-protocol/logger': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/misc': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/types': 6.4.4
+      '@lit-protocol/logger': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/misc': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/types': 6.4.8
       ajv: 8.12.0
       bitcoinjs-lib: 6.1.6
       ethers: 5.7.2
@@ -4785,7 +4785,7 @@ snapshots:
     dependencies:
       typescript: 5.5.4
 
-  '@lit-protocol/core@6.4.4(typescript@5.5.4)':
+  '@lit-protocol/core@6.4.8(typescript@5.5.4)':
     dependencies:
       '@cosmjs/amino': 0.30.1
       '@cosmjs/crypto': 0.30.1
@@ -4794,20 +4794,20 @@ snapshots:
       '@ethersproject/abstract-provider': 5.7.0
       '@ethersproject/contracts': 5.7.0
       '@ethersproject/providers': 5.7.2
-      '@lit-protocol/access-control-conditions': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/accs-schemas': 0.0.9
-      '@lit-protocol/bls-sdk': 6.4.4
-      '@lit-protocol/constants': 6.4.4(typescript@5.5.4)
+      '@lit-protocol/access-control-conditions': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/accs-schemas': 0.0.10
+      '@lit-protocol/bls-sdk': 6.4.8
+      '@lit-protocol/constants': 6.4.8(typescript@5.5.4)
       '@lit-protocol/contracts': 0.0.39(typescript@5.5.4)
-      '@lit-protocol/contracts-sdk': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/crypto': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/ecdsa-sdk': 6.4.4
-      '@lit-protocol/logger': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/misc': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/nacl': 6.4.4
-      '@lit-protocol/sev-snp-utils-sdk': 6.4.4
-      '@lit-protocol/types': 6.4.4
-      '@lit-protocol/uint8arrays': 6.4.4(typescript@5.5.4)
+      '@lit-protocol/contracts-sdk': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/crypto': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/ecdsa-sdk': 6.4.8
+      '@lit-protocol/logger': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/misc': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/nacl': 6.4.8
+      '@lit-protocol/sev-snp-utils-sdk': 6.4.8
+      '@lit-protocol/types': 6.4.8
+      '@lit-protocol/uint8arrays': 6.4.8(typescript@5.5.4)
       ajv: 8.12.0
       bitcoinjs-lib: 6.1.6
       bs58: 5.0.0
@@ -4829,22 +4829,22 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@lit-protocol/crypto@6.4.4(typescript@5.5.4)':
+  '@lit-protocol/crypto@6.4.8(typescript@5.5.4)':
     dependencies:
       '@ethersproject/abstract-provider': 5.7.0
       '@ethersproject/contracts': 5.7.0
       '@ethersproject/providers': 5.7.2
-      '@lit-protocol/accs-schemas': 0.0.9
-      '@lit-protocol/bls-sdk': 6.4.4
-      '@lit-protocol/constants': 6.4.4(typescript@5.5.4)
+      '@lit-protocol/accs-schemas': 0.0.10
+      '@lit-protocol/bls-sdk': 6.4.8
+      '@lit-protocol/constants': 6.4.8(typescript@5.5.4)
       '@lit-protocol/contracts': 0.0.39(typescript@5.5.4)
-      '@lit-protocol/ecdsa-sdk': 6.4.4
-      '@lit-protocol/logger': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/misc': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/nacl': 6.4.4
-      '@lit-protocol/sev-snp-utils-sdk': 6.4.4
-      '@lit-protocol/types': 6.4.4
-      '@lit-protocol/uint8arrays': 6.4.4(typescript@5.5.4)
+      '@lit-protocol/ecdsa-sdk': 6.4.8
+      '@lit-protocol/logger': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/misc': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/nacl': 6.4.8
+      '@lit-protocol/sev-snp-utils-sdk': 6.4.8
+      '@lit-protocol/types': 6.4.8
+      '@lit-protocol/uint8arrays': 6.4.8(typescript@5.5.4)
       ajv: 8.12.0
       cross-fetch: 3.1.4
       ethers: 5.7.2
@@ -4860,28 +4860,28 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@lit-protocol/ecdsa-sdk@6.4.4':
+  '@lit-protocol/ecdsa-sdk@6.4.8':
     dependencies:
       tslib: 1.14.1
       util: 0.12.5
 
-  '@lit-protocol/encryption@6.4.4(typescript@5.5.4)':
+  '@lit-protocol/encryption@6.4.8(typescript@5.5.4)':
     dependencies:
       '@ethersproject/abstract-provider': 5.7.0
       '@ethersproject/contracts': 5.7.0
       '@ethersproject/providers': 5.7.2
-      '@lit-protocol/accs-schemas': 0.0.9
-      '@lit-protocol/bls-sdk': 6.4.4
-      '@lit-protocol/constants': 6.4.4(typescript@5.5.4)
+      '@lit-protocol/accs-schemas': 0.0.10
+      '@lit-protocol/bls-sdk': 6.4.8
+      '@lit-protocol/constants': 6.4.8(typescript@5.5.4)
       '@lit-protocol/contracts': 0.0.39(typescript@5.5.4)
-      '@lit-protocol/crypto': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/ecdsa-sdk': 6.4.4
-      '@lit-protocol/logger': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/misc': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/nacl': 6.4.4
-      '@lit-protocol/sev-snp-utils-sdk': 6.4.4
-      '@lit-protocol/types': 6.4.4
-      '@lit-protocol/uint8arrays': 6.4.4(typescript@5.5.4)
+      '@lit-protocol/crypto': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/ecdsa-sdk': 6.4.8
+      '@lit-protocol/logger': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/misc': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/nacl': 6.4.8
+      '@lit-protocol/sev-snp-utils-sdk': 6.4.8
+      '@lit-protocol/types': 6.4.8
+      '@lit-protocol/uint8arrays': 6.4.8(typescript@5.5.4)
       ajv: 8.12.0
       cross-fetch: 3.1.4
       ethers: 5.7.2
@@ -4897,7 +4897,7 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@lit-protocol/lit-node-client-nodejs@6.4.4(typescript@5.5.4)':
+  '@lit-protocol/lit-node-client-nodejs@6.4.8(typescript@5.5.4)':
     dependencies:
       '@cosmjs/amino': 0.30.1
       '@cosmjs/crypto': 0.30.1
@@ -4907,24 +4907,24 @@ snapshots:
       '@ethersproject/contracts': 5.7.0
       '@ethersproject/providers': 5.7.2
       '@ethersproject/transactions': 5.7.0
-      '@lit-protocol/access-control-conditions': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/accs-schemas': 0.0.9
-      '@lit-protocol/auth-helpers': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/bls-sdk': 6.4.4
-      '@lit-protocol/constants': 6.4.4(typescript@5.5.4)
+      '@lit-protocol/access-control-conditions': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/accs-schemas': 0.0.10
+      '@lit-protocol/auth-helpers': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/bls-sdk': 6.4.8
+      '@lit-protocol/constants': 6.4.8(typescript@5.5.4)
       '@lit-protocol/contracts': 0.0.39(typescript@5.5.4)
-      '@lit-protocol/contracts-sdk': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/core': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/crypto': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/ecdsa-sdk': 6.4.4
-      '@lit-protocol/encryption': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/logger': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/misc': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/misc-browser': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/nacl': 6.4.4
-      '@lit-protocol/sev-snp-utils-sdk': 6.4.4
-      '@lit-protocol/types': 6.4.4
-      '@lit-protocol/uint8arrays': 6.4.4(typescript@5.5.4)
+      '@lit-protocol/contracts-sdk': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/core': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/crypto': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/ecdsa-sdk': 6.4.8
+      '@lit-protocol/encryption': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/logger': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/misc': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/misc-browser': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/nacl': 6.4.8
+      '@lit-protocol/sev-snp-utils-sdk': 6.4.8
+      '@lit-protocol/types': 6.4.8
+      '@lit-protocol/uint8arrays': 6.4.8(typescript@5.5.4)
       ajv: 8.12.0
       bitcoinjs-lib: 6.1.6
       bs58: 5.0.0
@@ -4947,7 +4947,7 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@lit-protocol/lit-node-client@6.4.4(react@18.3.1)(typescript@5.5.4)':
+  '@lit-protocol/lit-node-client@6.4.8(react@18.3.1)(typescript@5.5.4)':
     dependencies:
       '@cosmjs/amino': 0.30.1
       '@cosmjs/crypto': 0.30.1
@@ -4960,26 +4960,26 @@ snapshots:
       '@ethersproject/strings': 5.7.0
       '@ethersproject/transactions': 5.7.0
       '@ethersproject/wallet': 5.7.0
-      '@lit-protocol/access-control-conditions': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/accs-schemas': 0.0.9
-      '@lit-protocol/auth-browser': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/auth-helpers': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/bls-sdk': 6.4.4
-      '@lit-protocol/constants': 6.4.4(typescript@5.5.4)
+      '@lit-protocol/access-control-conditions': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/accs-schemas': 0.0.10
+      '@lit-protocol/auth-browser': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/auth-helpers': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/bls-sdk': 6.4.8
+      '@lit-protocol/constants': 6.4.8(typescript@5.5.4)
       '@lit-protocol/contracts': 0.0.39(typescript@5.5.4)
-      '@lit-protocol/contracts-sdk': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/core': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/crypto': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/ecdsa-sdk': 6.4.4
-      '@lit-protocol/encryption': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/lit-node-client-nodejs': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/logger': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/misc': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/misc-browser': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/nacl': 6.4.4
-      '@lit-protocol/sev-snp-utils-sdk': 6.4.4
-      '@lit-protocol/types': 6.4.4
-      '@lit-protocol/uint8arrays': 6.4.4(typescript@5.5.4)
+      '@lit-protocol/contracts-sdk': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/core': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/crypto': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/ecdsa-sdk': 6.4.8
+      '@lit-protocol/encryption': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/lit-node-client-nodejs': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/logger': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/misc': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/misc-browser': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/nacl': 6.4.8
+      '@lit-protocol/sev-snp-utils-sdk': 6.4.8
+      '@lit-protocol/types': 6.4.8
+      '@lit-protocol/uint8arrays': 6.4.8(typescript@5.5.4)
       '@walletconnect/ethereum-provider': 2.9.2(@walletconnect/modal@2.6.1(react@18.3.1))
       '@walletconnect/modal': 2.6.1(react@18.3.1)
       ajv: 8.12.0
@@ -5020,13 +5020,13 @@ snapshots:
       - uWebSockets.js
       - utf-8-validate
 
-  '@lit-protocol/logger@6.4.4(typescript@5.5.4)':
+  '@lit-protocol/logger@6.4.8(typescript@5.5.4)':
     dependencies:
       '@ethersproject/abstract-provider': 5.7.0
-      '@lit-protocol/accs-schemas': 0.0.9
-      '@lit-protocol/constants': 6.4.4(typescript@5.5.4)
+      '@lit-protocol/accs-schemas': 0.0.10
+      '@lit-protocol/constants': 6.4.8(typescript@5.5.4)
       '@lit-protocol/contracts': 0.0.39(typescript@5.5.4)
-      '@lit-protocol/types': 6.4.4
+      '@lit-protocol/types': 6.4.8
       ethers: 5.7.2
       jszip: 3.10.1
       punycode: 2.3.1
@@ -5038,14 +5038,14 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@lit-protocol/misc-browser@6.4.4(typescript@5.5.4)':
+  '@lit-protocol/misc-browser@6.4.8(typescript@5.5.4)':
     dependencies:
       '@ethersproject/abstract-provider': 5.7.0
-      '@lit-protocol/accs-schemas': 0.0.9
-      '@lit-protocol/constants': 6.4.4(typescript@5.5.4)
+      '@lit-protocol/accs-schemas': 0.0.10
+      '@lit-protocol/constants': 6.4.8(typescript@5.5.4)
       '@lit-protocol/contracts': 0.0.39(typescript@5.5.4)
-      '@lit-protocol/types': 6.4.4
-      '@lit-protocol/uint8arrays': 6.4.4(typescript@5.5.4)
+      '@lit-protocol/types': 6.4.8
+      '@lit-protocol/uint8arrays': 6.4.8(typescript@5.5.4)
       ethers: 5.7.2
       jszip: 3.10.1
       siwe: 2.3.2(ethers@5.7.2)
@@ -5055,16 +5055,16 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@lit-protocol/misc@6.4.4(typescript@5.5.4)':
+  '@lit-protocol/misc@6.4.8(typescript@5.5.4)':
     dependencies:
       '@ethersproject/abstract-provider': 5.7.0
       '@ethersproject/contracts': 5.7.0
       '@ethersproject/providers': 5.7.2
-      '@lit-protocol/accs-schemas': 0.0.9
-      '@lit-protocol/constants': 6.4.4(typescript@5.5.4)
+      '@lit-protocol/accs-schemas': 0.0.10
+      '@lit-protocol/constants': 6.4.8(typescript@5.5.4)
       '@lit-protocol/contracts': 0.0.39(typescript@5.5.4)
-      '@lit-protocol/logger': 6.4.4(typescript@5.5.4)
-      '@lit-protocol/types': 6.4.4
+      '@lit-protocol/logger': 6.4.8(typescript@5.5.4)
+      '@lit-protocol/types': 6.4.8
       ajv: 8.12.0
       ethers: 5.7.2
       jszip: 3.10.1
@@ -5078,19 +5078,19 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@lit-protocol/nacl@6.4.4':
+  '@lit-protocol/nacl@6.4.8':
     dependencies:
       tslib: 1.14.1
 
-  '@lit-protocol/sev-snp-utils-sdk@6.4.4':
+  '@lit-protocol/sev-snp-utils-sdk@6.4.8':
     dependencies:
       cross-fetch: 3.1.4
       tslib: 1.14.1
 
-  '@lit-protocol/types@6.4.4':
+  '@lit-protocol/types@6.4.8':
     dependencies:
       '@ethersproject/abstract-provider': 5.7.0
-      '@lit-protocol/accs-schemas': 0.0.9
+      '@lit-protocol/accs-schemas': 0.0.10
       ethers: 5.7.2
       jszip: 3.10.1
       siwe: 2.3.2(ethers@5.7.2)
@@ -5099,10 +5099,10 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@lit-protocol/uint8arrays@6.4.4(typescript@5.5.4)':
+  '@lit-protocol/uint8arrays@6.4.8(typescript@5.5.4)':
     dependencies:
       '@ethersproject/abstract-provider': 5.7.0
-      '@lit-protocol/accs-schemas': 0.0.9
+      '@lit-protocol/accs-schemas': 0.0.10
       '@lit-protocol/contracts': 0.0.39(typescript@5.5.4)
       ethers: 5.7.2
       jszip: 3.10.1
