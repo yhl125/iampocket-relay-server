@@ -28,7 +28,7 @@ export class AppService {
     const secretToken = this.configService.get<string>('TELGRAM_BOT_TOKEN');
     const parsedInitData = parseInitData(data);
     const userId = parsedInitData.user.id.toString();
-    const litContracts = await this.connectLitContractsToDatilTest();
+    const litContracts = await this.connectLitContractsToDatil();
     const authMethods =
       await litContracts.pkpPermissionsContract.read.getPermittedAuthMethods(
         pkpTokenId,
@@ -56,8 +56,8 @@ export class AppService {
   }
 
   async createPkpAndPermitLitActionToUsePkp(data: string) {
-    await this.connectLitNodeClientToDatilTest();
-    const litContracts = await this.connectLitContractsToDatilTest();
+    await this.connectLitNodeClientToDatil();
+    const litContracts = await this.connectLitContractsToDatil();
     const telegramUserId = this.validateAndGetUserId(data);
     const pkp = await this.mintPkpWithLitContracts(litContracts);
     await this.addPermittedAuthMethodToPkp(litContracts, pkp, telegramUserId);
@@ -70,7 +70,7 @@ export class AppService {
   async getPkpsForTelegramUser(data: string): Promise<IRelayPKP[]> {
     const telegramUserId = this.validateAndGetUserId(data);
     console.log(telegramUserId);
-    const litContracts = await this.connectLitContractsToDatilTest();
+    const litContracts = await this.connectLitContractsToDatil();
     const hexUserId = ethers.utils.hexlify(
       ethers.utils.toUtf8Bytes(telegramUserId),
     );
@@ -98,21 +98,21 @@ export class AppService {
     return pkps;
   }
 
-  private async connectLitNodeClientToDatilTest() {
+  private async connectLitNodeClientToDatil() {
     const client = new LitNodeClient({
-      litNetwork: LitNetwork.DatilTest,
+      litNetwork: LitNetwork.Datil,
     });
     await client.connect();
   }
 
-  private async connectLitContractsToDatilTest() {
+  private async connectLitContractsToDatil() {
     const litContracts = new LitContracts({
       signer: new Wallet(
         this.configService.get<string>('EOA_PRIVATE_KEY'),
         new ethers.providers.JsonRpcProvider(LIT_RPC.CHRONICLE_YELLOWSTONE),
       ),
       debug: false,
-      network: LitNetwork.DatilTest,
+      network: LitNetwork.Datil,
     });
 
     await litContracts.connect();
@@ -574,7 +574,7 @@ export class AppService {
 
     const payerWallet = new ethers.Wallet(data.payerPrivateKey);
     const client = new LitNodeClient({
-      litNetwork: LitNetwork.DatilTest,
+      litNetwork: LitNetwork.Datil,
     });
     await client.connect();
     const { capacityDelegationAuthSig } =
