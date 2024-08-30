@@ -417,6 +417,10 @@ export class AppService {
     let error: string | boolean = false;
 
     try {
+      const balance = await wallet.getBalance();
+      if (balance.lt(ethers.utils.parseEther('0.001'))) {
+        await this.fundWallet(wallet);
+      }
       const tx = await this.addPaymentDelegationPayee(
         wallet,
         [addPayeeDto.payee],
