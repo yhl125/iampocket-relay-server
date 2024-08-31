@@ -227,8 +227,8 @@ export class AppService {
     payerWalletAddress: string;
     payerPrivateKey: string;
   }> {
-    // const secretToken = this.configService.get<string>('TELGRAM_BOT_TOKEN');
-    // validate(initDataRaw, secretToken);
+    const secretToken = this.configService.get<string>('TELGRAM_BOT_TOKEN');
+    validate(initDataRaw, secretToken);
     const privateKey = Wallet.createRandom().privateKey;
     const wallet = new Wallet(
       privateKey,
@@ -403,8 +403,8 @@ export class AppService {
   }
 
   async addPayeeHandler(addPayeeDto: AddPayeeDto) {
-    // const secretToken = this.configService.get<string>('TELGRAM_BOT_TOKEN');
-    // validate(addPayeeDto.initDataRaw, secretToken);
+    const secretToken = this.configService.get<string>('TELGRAM_BOT_TOKEN');
+    validate(addPayeeDto.initDataRaw, secretToken);
 
     if (!ethers.utils.isAddress(addPayeeDto.payee)) {
       throw new Error('Invalid payee address');
@@ -573,8 +573,8 @@ export class AppService {
   }
 
   async getPayerAuthSig(data: GetPayerAuthSigDto): Promise<AuthSig> {
-    // const secretToken = this.configService.get<string>('TELGRAM_BOT_TOKEN');
-    // validate(data.initDataRaw, secretToken);
+    const secretToken = this.configService.get<string>('TELGRAM_BOT_TOKEN');
+    validate(data.initDataRaw, secretToken);
 
     const payerWallet = new ethers.Wallet(data.payerPrivateKey);
     const client = new LitNodeClient({
