@@ -1,57 +1,93 @@
+# Telegram Bot with PKP and Lit Protocol Integration
+
+This project is a NestJS-based application that integrates Telegram Bot functionality with PKP (Programmable Key Pairs) and Lit Protocol. It provides features such as validating Telegram data, creating PKPs, managing payers and payees, handling authentication signatures, and serving NFT metadata.
+
+## Table of Contents
+
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Running the Application](#running-the-application)
+- [API Endpoints](#api-endpoints)
+
+## Features
+
+- Validate Telegram data
+- Create PKPs (Programmable Key Pairs) for Telegram users
+- Retrieve PKPs associated with Telegram users
+- Register payers and manage payees
+- Handle authentication signatures for payers
+- Serve NFT metadata based on the XLS-24d standard
+
+## Prerequisites
+
+- Node.js
+- pnpm package manager
+- Telegram Bot Token (do not need if you are not using Telegram Authentication and ENV=dev)
+- EOA wallet funded with Lit faucet
+
 ## Installation
 
-```bash
-$ pnpm install
-```
-
-set up the environment variables in the .env file
+Install dependencies:
 
 ```bash
-$ cp .env.example .env
+pnpm install
 ```
 
-faucet lit token to your EOA
-https://chronicle-yellowstone-faucet.getlit.dev/
+## Configuration
 
-add telegram bot token to the .env file
+1. Copy the example environment file:
+   ```bash
+   cp .env.example .env
+   ```
 
+2. Edit the `.env` file and add your configuration:
+   ```
+   TELEGRAM_BOT_TOKEN=your_telegram_bot_token
+   EOA_PRIVATE_KEY=your_private_key
+   ENV=dev
+   ```
 
-## Running the app
+3. Obtain Lit tokens:
+   - Visit the [Lit Protocol Faucet](https://chronicle-yellowstone-faucet.getlit.dev/)
+   - Faucet Lit tokens to your EOA (Externally Owned Account)
+
+## Running the Application
 
 ```bash
-# development
-$ pnpm run start
+# Development mode
+pnpm run start
 
-# watch mode
-$ pnpm run start:dev
+# Watch mode
+pnpm run start:dev
 
-# production mode
-$ pnpm run start:prod
+# Production mode
+pnpm run start:prod
 ```
 
-## Test
+## API Endpoints
 
-```bash
-# unit tests
-$ pnpm run test
+Swagger documentation is available at:
+- Local: http://localhost:3001/api
+- Production: https://iampocket-relay-server.vercel.app/api
 
-# e2e tests
-$ pnpm run test:e2e
+The application exposes the following endpoints:
 
-# test coverage
-$ pnpm run test:cov
-```
+- `GET /` - Hello world endpoint
+- `POST /telegram/validate` - Validate Telegram data with PKP token ID
+- `POST /telegram/create-pkp` - Create a PKP for a Telegram user
+- `POST /telegram/get-pkps` - Get PKPs for a Telegram user
+- `POST /register-payer` - Register a new payer
+- `POST /add-payee` - Add a new payee
+- `POST /payer-authsig` - Get authentication signature for a payer
+- `GET /nft/maru` - Get NFT metadata based on XLS-24d standard
+- `GET /nft/maru-sleeping` - Get NFT metadata for sleeping Maru
+- `GET /nft/maru-glasses` - Get NFT metadata for Maru with glasses
 
-## Support
+For detailed information on request/response formats, please refer to the Swagger documentation or the `AppController` class in the source code.
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+## NFT Metadata Standard
 
-## Stay in touch
+This project implements the XLS-24d standard for NFT metadata. For more information, visit the [XRPL Standards Discussion](https://github.com/XRPLF/XRPL-Standards/discussions/69).
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
